@@ -1,37 +1,42 @@
-p { text-indent: 0; }
-
-p, H1, H2, H3, H4, H5, H6, H7, H8, table, ul, dl, pre { margin-top: 1em;}
-h1, h2, h3, h4, h5, h6, h7, h8 { margin-top: 1em;}
-
+p {
+    text-indent: 0
+    }
+p, H1, H2, H3, H4, H5, H6, H7, H8, table, ul, dl, pre {
+    margin-top: 1em
+    }
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    margin-top: 1em
+    }
 blockquote {
-  margin-left: 1em;
-  font-style: italic;
-}
-
+    margin-left: 1em;
+    font-style: italic
+    }
 /* doesn't work apparently: */
 dt {
-  display:block;
-  margin-top: 0.5em;
-}
+    display: block;
+    margin-top: 0.5em
+    }
 dd {
-  margin-left: 0.5em;
-}
-
-.pagebreak { page-break-before: always; }
+    margin-left: 0.5em
+    }
+.pagebreak {
+    page-break-before: always
+    }
 #toc H3 {
-  text-indent: 1em;
-}
+    text-indent: 1em
+    }
 #toc .document {
-  text-indent: 2em;
-}
-
+    text-indent: 2em
+    }
 img.float-left {
-  float:left;
-  margin-right: 10px;
-}
-
+    float: left;
+    margin-right: 10px
+    }
 img {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto
+    }
+pre {
+    background: lightgray;
 }

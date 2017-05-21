@@ -146,7 +146,7 @@ class Kindlefodder
       processed_image_path = "processed_images/#{img_file.gsub('%20', '_').sub(/(\.\w+)$/, "-grayscale.gif")}"
       sleep 0.1
       unless File.size?(processed_image_path)
-        run_shell_command "convert images/#{img_file} -compose over -background white -flatten -resize '300x200>' -alpha off #{processed_image_path}"
+        run_shell_command "convert images/#{img_file} -compose over -background white -flatten -resize '600x400>' -alpha off #{processed_image_path}"
       end
       img['src'] = [Dir.pwd, processed_image_path].join("/")
     }
